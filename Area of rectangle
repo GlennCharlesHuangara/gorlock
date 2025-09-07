@@ -1,0 +1,11 @@
+BEGIN
+    DISPLAY "Input the length of the rectangle: "
+    INPUT length
+
+    DISPLAY "Input the width of the rectangle: "
+    INPUT width
+
+    area ← length * width
+
+    DISPLAY "The area of the rectangle is: ", area
+END
